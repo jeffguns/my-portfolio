@@ -1,0 +1,387 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,200&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --fonte1: 'Raleway', sans-serif;;
+    --cor1: #193BC3;
+    --cor2: #6681EE;
+    --cor3: #1E47EB;
+    --cor4: #2E3A6B;
+    --cor5: #1838B8;
+}
+
+body,
+html {
+    width: 98.7%;
+    height: 100vh;
+    background: url(../imagens/background-page.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header {
+    background-image: linear-gradient(to left, #fff, var(--cor2));
+    border-radius: 0px 0px 20px 20px;
+    width: 98.7vw;
+    margin-bottom: 5px;
+    box-shadow: 0px 3px 10px rgb(26, 25, 25);
+}
+
+
+
+/*------------------ menu e redes socias ----------------------*/
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: white;
+    font-family: var(--fonte1);
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: 2px 2px 5px black;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-itens {
+    margin: 0px 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: var(--fonte1);
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+
+
+.nav-redes {
+    display: inline-block;
+    align-items: center;
+}
+
+.nav-redes ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-redes a {
+    list-style: none;
+}
+
+.nav-redes img{
+    display: flex;
+    justify-content: center;
+    margin: 0px 15px; 
+    width: 3vw;
+    height: 7vh;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px white;
+}
+
+.nav-redes img:hover {
+    background-color: rgba(0, 0, 0, 0.548);
+    padding: 2px;
+    box-shadow: 2px 2px 5px black;
+}
+
+/*------------Mobile - Menu----------------*/
+
+.material-symbols-outlined {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+
+/*--------------Configuração Gerais-----------------*/
+main{
+    width: 98.7vw;
+}
+
+
+/*--------------Minha Apresentação-----------------*/
+
+#img-apresentacao {
+    background-color: #6681ee9f;
+    display: flex;
+    width: 98.7vw;
+    height: 83vh;
+    margin: auto;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 3px 3px  7px black;
+}
+
+#img-apresentacao img {
+    width: 50%;
+    box-shadow:  5px 5px 8px white;
+}
+
+#img-apresentacao p {
+    color: white;
+    font-family: var(--fonte1);
+    font-size: 2.9em;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.993);
+    padding: auto;
+    margin: auto;
+}
+
+/*------------------Sobre Mim---------------*/
+
+#sobre {
+    background-color: #1e47eb8a;
+    display: block;
+    width: 98.7vw;
+    height: auto;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    box-shadow: 3px 3px 7px black;
+}
+
+#sobre h2{
+    color: white;
+    width: 30%;
+    font-family: var(--fonte1);
+    font-size: 2.8em;
+    font-style: italic;
+    text-align: center;
+    font-weight: bolder;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    text-shadow: 2px 2px 5px black;
+}
+
+#sobre p {
+    background-color: rgba(0, 0, 0, 0.644);
+    color: white;
+    width: 90%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, 
+                   sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 5%;
+    margin: auto;
+    border-radius: 20px 0px;
+    box-shadow: 3px 3px 7px white;
+}
+
+/*-------------------Projetos----------------*/
+
+#h2-projetos {
+    background-color: rgba(65, 105, 225, 0.548);
+    color: white;
+    font-family: var(--fonte1);
+    font-size: 4em;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+    padding: 10px ;
+    padding-top: 10px;
+    text-shadow: 2px 2px 5px black;
+    box-shadow: 3px 3px 7px black;
+}
+
+
+#my-projetos{
+    display: flex;
+    background-color: rgba(65, 105, 225, 0.541);
+    width: 100%;
+    padding: auto;
+    margin: auto;
+    box-shadow: 3px 3px 7px black;
+}
+
+.projetos {
+    display: inline-flex;
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 26vw;
+    height: 50vh;
+    margin: 3%;
+    padding: auto;
+    text-align: center;
+    box-shadow: 3px 3px 7px white;
+}
+
+.a-projetos {
+    text-decoration: none;
+    height: 100%;
+    color: white;
+    font-family: var(--fonte1);
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin: auto;
+    padding: 7px;
+    text-shadow: 2px 2px 3px black;
+}
+
+.img-projetos {
+    display: inline-flex;
+    background-color: white;
+    width: 23vw;
+    height: 30vh;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 7px white;
+}
+
+#my-projetos-retraido{
+    display: none;
+}
+
+#my-projetos-retraido{
+    background-color: rgba(65, 105, 225, 0.541);
+    width: 100%;
+    padding: auto;
+    margin: auto;
+    box-shadow: 3px 3px 7px black;
+}
+
+#button-retrair {
+    width: 98.7vw;
+    height: 10vh;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+#btnVerMais {
+    background-color: rgba(0, 0, 0, 0.623);
+    color: white;
+    font-family: var(--fonte1);
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: 3px 3px 6px white;
+    box-shadow: 2px 2px 10px white;
+}
+
+#btnVerMais:hover {
+    color: black;
+    font-family: var(--fonte1);
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.466);
+    text-shadow: 2px 2px 5px black;
+    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.411);
+}
+
+/*----------------Contatos-----------------*/
+
+#contatos {
+    display: flex;
+    background-color: #1838b84b;
+    width: 98.7;
+    border-radius: 10px;
+    margin: auto;
+    padding: auto;
+    margin-right: 2px;
+    box-shadow: 3px 3px 7px white;
+}
+
+.cont {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.596);
+    width: 90vw;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px black;
+}
+
+.cont h1 {
+    color: white;
+    font-family: var(--fonte1);
+    font-size: 3em;
+    font-style: italic;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 10px;
+    padding: auto;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+.cont-list {
+    color: white;
+    display: inline;
+    font-family: var(--fonte1);
+    font-size: 1.5em;
+    margin: auto;
+    margin: 100px;
+    text-decoration: none;
+}
+
+.cont-list img{
+    border-radius: 50%;
+    width: 5vw;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    margin-left: -100px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 98.7vw;
+    text-align: center;
+    padding: 20px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px white;
+}
+
+
+

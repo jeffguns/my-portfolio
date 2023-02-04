@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+
+/*------------Mobile - Menu----------------*/
+
+@media screen and (max-width: 960px) {
+    .nav-bar {
+        padding: 1.5rem;
+    }
+
+    .nav-itens {
+        display: none;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+        color: black;
+    }
+
+    .nav-link:hover {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.664);
+        padding: 5px;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    .nav-redes {
+        display: inline-block;
+    }
+
+    .nav-redes img {
+        width: 7vw;
+    }
+
+
+    .material-symbols-outlined {
+        display: flex;
+    }
+
+    .material-symbols-outlined {
+        background-color: transparent;
+        border: none;
+        color: black;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-itens {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .logo h1 {
+        display: flex;
+        font-size: 1.5rem;
+    }
+
+    .open {
+        display: block;
+
+    }
+
+    /*--------------Minha Apresentação-----------------*/
+
+    #img-apresentacao{
+        height: 40vh;
+        padding: 20px;
+    }
+
+    #img-apresentacao p {
+        font-size: 1.5em;
+        font-weight: bolder;
+        font-style: italic;
+        text-align: center;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.993);
+        padding: auto;
+        margin: auto;
+        margin-left: 20px;
+    }
+
+    /*------------------Sobre Mim---------------*/
+
+    #sobre h2 {
+        font-size: 1.4em;
+    }
+
+    #sobre p {
+        font-size: 1.3em;
+    }
+
+    /*-------------------Projetos----------------*/
+
+    .h2-projetos {
+        font-size: 2em;
+    }
+
+    .projetos{
+        height: 35vh;
+    }
+
+    .a-projetos {
+        font-size: 1em;
+    }
+
+    .img-projetos {
+        height: 20vh;
+    }
+
+    #btnVerMais {
+        font-size: 1em;
+    }
+
+    /*------------Contatos-------------*/
+
+    .cont-list img {
+        display: block;
+        width: 5vw;
+        margin: auto;
+        padding: 1px;
+
+    }
+}

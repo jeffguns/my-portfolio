@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media-query.css">
+
+    <title>Portfolio-Text</title>
+</head>
+
+
+<body>
+    <header>
+        <nav class="nav-bar">
+
+            <div class="logo">
+                <h1>Portfolio</h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-itens"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-itens"><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li class="nav-itens"><a href="#h2-projetos" class="nav-link">Projetos</a></li>
+                    <li class="nav-itens"><a href="#contatos" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="redes">
+                <ul>
+                    <li class="nav-redes"><a href="https://github.com/jeffguns" target="_blank" class="nav-link"> 
+                    <img
+                                src="assets/imagens/git.png" alt="GitHub" class="nav-img"></a>
+                    </li>
+
+                    <li class="nav-redes"><a href="https://linkedin.com/in/jefferson-silveira-2614b0143" 
+                        target="_blank"
+                        class="nav-link"><img src="assets/imagens/linkedin.png" alt="LinkDin" class="nav-img"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <button class="material-symbols-outlined" onclick="menuShow()">menu_open</button>
+            </div>
+
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-itens"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-itens"><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li class="nav-itens"><a href="#my-projetos" class="nav-link">Projetos</a></li>
+                    <li class="nav-itens"><a href="#" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div id="img-apresentacao">
+                <img src="assets/imagens/PhotoFunia-1674338294.jpg" alt="apresentacao">
+                <p>Olá meu none é Jefferson sejá bem vindo ao meu portfolio.</p>
+
+            </div>
+
+            <div id="sobre">
+                <h2><strong>Sobre mim</strong></h2>
+
+                <p> Um apaixonado e muito curioso por tecnoligia uma das coisas que mais me fascina é entender como
+                    as coisas funciona por traz das telas, dedicado, e sempre disposto a aprender. Uma pessoa calma
+                    e de facíl relacionamento gosto de trabalhar em grupo pois assim acredito que sempre estou
+                    aprendendo coisas novas enfim para saber mais entra em contato.
+                </p>
+            </div>
+
+            <h2 id="h2-projetos"><strong>Projetos</strong></h2>
+
+            <div id="my-projetos">
+                <div class="projetos">
+                    <a href="https://jeffguns.github.io/projeto-android/" class="a-projetos" target="_blank"><img 
+                            src="assets/imagens/android.png" alt="android" 
+                            class="img-projetos">História do mascote android.</a>
+                </div>
+                <div class="projetos">
+                    <a href="https://jeffguns.github.io/projeto-cordel/" class="a-projetos" target="_blank"><img 
+                        src="assets/imagens/cordel.png" alt="cordel"
+                        class="img-projetos">Cordel.</a>
+                </div>
+                <div class="projetos">
+                    <a href="https://jeffguns.github.io/projeto-social/" class="a-projetos" target="_blank"><img 
+                        src="assets/imagens/redes-sociais.png" alt="redes-sociais"
+                        class="img-projetos">Redes Sociais.</a>
+                </div>
+            </div>
+            <div id="retrair"></div>
+            <div id="my-projetos-retraido">
+                <div class="projetos">
+                    <a href="https://jeffguns.github.io/projeto-login/" class="a-projetos" target="_blank"><img 
+                        src="assets/imagens/login.png" alt="login"
+                        class="img-projetos">Login</a>
+                </div>
+                <div class="projetos">
+                    <a href="#" class="a-projetos"><img src="assets/imagens/breve.png" alt="breve"
+                        class="img-projetos">Cordel.</a>
+                </div>
+                <div class="projetos">
+                    <a href="#" class="a-projetos"><img src="assets/imagens/breve.png" alt="breve"
+                        class="img-projetos">Redes Sociais.</a>
+                </div>
+            </div>
+            <div id="button-retrair"><button onclick="verMais()" id="btnVerMais"><strong>Ver Mais</strong></button>
+            </div>
+
+            <div id="contatos">
+                <div class="cont">
+                    <h1><strong>Contatos</strong></h1>
+                    <ul class="cont-ul">
+                        <li class="cont-list"><p>jeff_guns@hotmail.com</p></li>
+                        <li class="cont-list"><p>(11) 98598-5870</p></li>
+                        <li class="cont-list"><a href="https://www.facebook.com/jefferson.silveira.5" target="
+                            "><img src="assets/imagens/facebook.png" alt=""></a></li>
+                        <li class="cont-list"><a href="https://www.instagram.com/jeffrockrollguns/" target="
+                            "><img src="assets/imagens/Instagram.png" alt=""></a></li>
+                        <li class="cont-list"><a href="https://twitter.com/jeff_rock10" target="
+                            "><img src="assets/imagens/twitter.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer><p>&copy Portfolio criado em 02/02/2023 por <strong>Jefferson Silveira Machado</strong></p></footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
