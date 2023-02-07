@@ -272,6 +272,10 @@ main{
     box-shadow: 4px 4px 7px white;
 }
 
+.p-pojetos {
+    margin: 30px;
+}
+
 #my-projetos-retraido{
     display: none;
 }
