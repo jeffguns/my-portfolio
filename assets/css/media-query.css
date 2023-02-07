@@ -5,7 +5,23 @@
 
 @media screen and (max-width: 960px) {
     .nav-bar {
-        padding: 1.5rem;
+        display: inline;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center
+    }
+    
+
+    .logo h1{
+        color: black;
+        font-size: 3em;
+        margin: 5px;
+        padding: 5px;
     }
 
     .nav-itens {
@@ -26,7 +42,8 @@
     }
 
     .nav-redes {
-        display: inline-block;
+        display: inline-flex;
+        text-align: center;
     }
 
     .nav-redes img {
@@ -35,7 +52,7 @@
 
 
     .material-symbols-outlined {
-        display: flex;
+        display: inline-flex;
     }
 
     .material-symbols-outlined {
@@ -55,11 +72,6 @@
     .mobile-menu .nav-itens {
         display: block;
         padding-top: 1.2rem;
-    }
-
-    .logo h1 {
-        display: flex;
-        font-size: 1.5rem;
     }
 
     .open {
@@ -102,15 +114,16 @@
     }
 
     .projetos{
-        height: 35vh;
+        height: 30vh;
     }
 
     .a-projetos {
         font-size: 1em;
+        margin: 10px 0px;
     }
 
     .img-projetos {
-        height: 20vh;
+        height: 16vh;
     }
 
     #btnVerMais {
@@ -119,11 +132,16 @@
 
     /*------------Contatos-------------*/
 
+  
     .cont-list img {
         display: block;
         width: 5vw;
         margin: auto;
-        padding: 1px;
+        padding: 0px;
+        box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.432);
+    }
 
+    .cont-list img:hover {
+        box-shadow: 2px 2px 5px black;
     }
 }
