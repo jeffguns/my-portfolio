@@ -13,7 +13,9 @@
 
     .logo {
         display: flex;
-        justify-content: center
+        justify-content: center;
+        margin: auto;
+        padding: auto;
     }
     
 
@@ -140,11 +142,14 @@
 
     /*------------Contatos-------------*/
 
+    .cont-list {
+        margin: auto;
+    }
   
     .cont-list img {
-        display: block;
-        width: 5vw;
-        margin: auto;
+        display: inline;
+        width: 7vw;
+        margin: 20px;
         padding: 0px;
         box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.432);
     }
